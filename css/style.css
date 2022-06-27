@@ -1,0 +1,169 @@
+body{
+	background-color: lightblue;
+}
+
+.wrapper{
+	/*max-width: 1172px;*/
+	width: 100%;
+	/*height: 82px;*/
+	margin: 0 auto;
+	padding: 25px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: white;
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+	position: absolute;
+	z-index: 2;
+}
+
+.logo{
+	display: flex;
+	align-self: center;
+	margin-left: 95px;
+}
+
+.listdiv{
+	display: flex;
+	align-items: center;
+	/*justify-content: center;*/
+	margin-right: 92px;
+
+
+}
+
+.list{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.list > li:not(:last-child) {
+
+	display: inline-block;
+	margin-right: 48px;
+
+
+}
+
+header{
+	position: relative;
+}
+
+ /*middle 1*/
+
+.wrappermiddle{
+	position: relative;
+}
+
+
+
+
+.middlesection{
+	width: 100%;
+	height: 651px;
+	background-image: url(../images/beach.png);
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+.bluetint{
+	width: 100%;
+	height: 651px;
+	position: absolute;
+	
+}
+
+
+.greecediv{
+	width: 100%;
+	height: 651px;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.discovergreece{
+	height: 60px;
+	width: 500px;
+	position: absolute;
+
+
+}
+
+
+.travel{
+	margin-top: 200px;
+}
+
+/*middle 2*/
+
+.secondsection{
+	position: absolute;
+	width: 100%;
+	margin-top: 730px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	/*box-sizing: border-box;
+	padding: 730px 95px 587px 95px;*/
+
+
+}
+
+.container{
+	width: 1164px;
+	height: 644px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.leftside{
+	height: 229px;
+	width: 195px;
+}
+
+.discover{
+	font-size: 16px;
+}
+
+.services{
+	margin-top: 13px;
+	font-size: 26px;
+}
+
+.lorem{
+	margin-top: 43px;
+	font-size: 16px;
+}
+
+
+.flight{
+	margin-top: 24px;
+	font-size: 18px;
+}
+
+.lorem2{
+	height: 60px;
+	width: 248px;
+	margin-top: 13px;
+	font-size: 16px;
+}
+
+
+.rightside{
+	height: 642px;
+	width: 868px;
+	display: flex;
+	flex-flow: row wrap;
+	/*justify-content: flex-end;*/
+	justify-content: space-between;
+}
